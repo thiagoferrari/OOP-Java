@@ -4,6 +4,7 @@ public class Reserva {
 
     private int codigo;
     private float valor;
+    // associação
     private Passageiro passageiro;
 
     // START GETTERS + SETTERS
