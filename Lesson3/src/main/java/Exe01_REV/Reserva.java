@@ -72,7 +72,7 @@ public class Reserva {
     /*-----*/
     // OTHER METHODS
     public String mostra() {
-        return "Reserva{" + "cod=" + cod + ", date=" + date + ", valor=" + valor + ", passageiro=" + passageiro.mostra() + ", voo=" + voo.mostra() + '}';
+        return "Reserva{" + "cod=" + cod + ", date=" + date + ", valor=" + valor + ",\n passageiro=" + passageiro.mostra() + ",\n voo=" + voo.mostra() + '}';
     }
 
 }

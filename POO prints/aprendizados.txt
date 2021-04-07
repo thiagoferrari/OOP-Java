@@ -1,0 +1,4 @@
+associação (associar minha classe criada com tipo de var.)
+composição/agregação = dependência (quando for criar o constructor, chamar a classe, conforme print 2021-03-12-pt2-composição-agregação)
+herança (simples e múltipla-ornitorrinco)
+polimorfismo (o mesmo objeto que recebe o mesmo valor)
