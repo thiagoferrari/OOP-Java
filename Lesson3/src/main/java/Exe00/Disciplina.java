@@ -15,9 +15,6 @@ public class Disciplina {
     }
 
     public Disciplina() {
-        this.nome = null;
-        this.cargaHr = 0;
-        this.professor = new Professor();
     }
 
     // END CONSTRUCTORS

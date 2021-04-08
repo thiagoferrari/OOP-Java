@@ -1,19 +1,21 @@
-	// se for filha, colocar extends
+﻿	// se for filha, colocar extends
 
     // declarar variáveis
 	// codar associação (declarar var. com classe própria)
 
     // START GETTERS + SETTERS
 	// colocar final nos sets
-	// se for inserir somente get + set do filho
+	// se filho, inserir somente get + set do filho
     // END GETTERS + SETTERS
     /*-----*/
     // START CONSTRUCTORS
-	// chamar super nos dois contructors
+	// se filho, chamar super nos dois contructors
 	// codar agregações/composições (chamar classe)
     // END CONSTRUCTORS
 
     /*-----*/
     // OTHER METHODS
 	// mostra()
-	// quando for herança trazer o super.mostra() e deixar o @Override
+	// se filho, trazer o super.mostra() ao final e deixar o @Override
+
+    // fazer poimorfismo, criar um novo método na class Testa (Java Main Class)!
