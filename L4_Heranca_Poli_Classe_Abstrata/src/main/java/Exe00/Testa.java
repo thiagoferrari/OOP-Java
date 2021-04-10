@@ -36,9 +36,9 @@ public class Testa {
         vetor.add(obj3);
 
         // percorrendo com for e usando objeto polimórfico (não cai na prova):
-        for (Funcionario f : vetor) {
+        vetor.forEach(f -> {
             exemplo(f);
-        }
+        });
     }
 
 }

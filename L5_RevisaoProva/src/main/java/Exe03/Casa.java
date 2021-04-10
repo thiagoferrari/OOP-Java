@@ -3,45 +3,34 @@ package Exe03;
 public class Casa extends Imovel {
 
     // declarar variáveis
-    private float volQuintal;
-    private boolean churras;
+    private float quintal;
 
     // START GETTERS + SETTERS
-    public float getVolQuintal() {
-        return volQuintal;
+    public float getQuintal() {
+        return quintal;
     }
 
-    public final void setVolQuintal(float volQuintal) {
-        this.volQuintal = volQuintal;
-    }
-
-    public boolean isChurras() {
-        return churras;
-    }
-
-    public final void setChurras(boolean churras) {
-        this.churras = churras;
+    public final void setQuintal(float quintal) {
+        this.quintal = quintal;
     }
 
     // END GETTERS + SETTERS
     /*-----*/
     // START CONSTRUCTORS
-    public Casa(float volQuintal, boolean churras, String dono, String end) {
-        super(dono, end);
-        this.setVolQuintal(volQuintal);
-        this.setChurras(churras);
-    }
-
     public Casa() {
         super();
     }
 
+    public Casa(float quintal, String endereco) {
+        super(endereco);
+        this.setQuintal(quintal);
+    }
     // END CONSTRUCTORS
 
     /*-----*/
     // OTHER METHODS
     @Override
     public String mostra() {
-        return "Casa{" + "volQuintal=" + volQuintal + ", churras=" + churras + "-Super(Moradia):" + super.mostra() + '}';
+        return "Casa{" + "quintal=" + quintal + "Super(Imovel)=" + super.mostra() + '}';
     }
 }

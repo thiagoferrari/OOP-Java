@@ -9,11 +9,13 @@ public class Testa {
 
     // fazer poimorfismo, criar um novo método na class Testa (Java Main Class)!
     public static void main(String[] args) {
-        Ap obj1 = new Ap(5, true, "Clóvis", "Santa Cruz");
-        Casa obj2 = new Casa(500, true, "Vane", "Pulicano");
+        Apto obj1 = new Apto(77, "Copacabana");
+        Casa obj2 = new Casa(70,"Itaquera");
 
         poli(obj1);
         poli(obj2);
+        
+        
 
     }
 
