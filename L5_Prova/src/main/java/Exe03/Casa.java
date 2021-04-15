@@ -31,6 +31,6 @@ public class Casa extends Imovel {
     // OTHER METHODS
     @Override
     public String mostra() {
-        return "Casa{" + "quintal=" + quintal + "Super(Imovel)=" + super.mostra() + '}';
+        return "Casa{" + "quintal=" + quintal + ", Super(Imovel)=" + super.mostra() + '}';
     }
 }

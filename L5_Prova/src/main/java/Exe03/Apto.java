@@ -31,6 +31,6 @@ public class Apto extends Imovel {
     // OTHER METHODS
     @Override
     public String mostra() {
-        return "Apto{" + "nro=" + nro + "Super(Imovel)=" + super.mostra() + '}';
+        return "Apto{" + "nro=" + nro + ", Super(Imovel)=" + super.mostra() + '}';
     }
 }

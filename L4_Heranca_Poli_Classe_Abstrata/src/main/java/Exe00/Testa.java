@@ -16,17 +16,8 @@ public class Testa {
 
         Gerente obj3 = new Gerente(20, "Carlos", "789", 3000);
 
-        //System.out.println(obj1.mostra());
-        //System.out.println(obj2.mostra());
-        //System.out.println(obj3.mostra());
         /*-----*/
-        // usando de polimorfismo (objeto polimórfico):
-        //exemplo(obj1);
-        //exemplo(obj2);
-        //exemplo(obj3);
-
-        /*-----*/
-        // EXEMPLO USANDO FOR E ARRAYLIST (não cai na prova):
+        // EXEMPLO USANDO ARRAYLIST + FOR + objeto polimórfico:
         // criando um vetor do tipo funcionário:
         ArrayList<Funcionario> vetor = new ArrayList();
 
@@ -35,10 +26,10 @@ public class Testa {
         vetor.add(obj2);
         vetor.add(obj3);
 
-        // percorrendo com for e usando objeto polimórfico (não cai na prova):
-        vetor.forEach(f -> {
+        // percorrendo com for e usando objeto polimórfico:
+        for (Funcionario f : vetor) {
             exemplo(f);
-        });
+        }
     }
 
 }
