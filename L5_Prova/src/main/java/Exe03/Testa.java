@@ -1,5 +1,7 @@
 package Exe03;
 
+import java.util.ArrayList;
+
 public class Testa {
 
     // usando de polimorfismo (objeto polimórfico):
@@ -7,15 +9,22 @@ public class Testa {
         System.out.println(obj.mostra());
     }
 
-    // fazer poimorfismo, criar um novo método na class Testa (Java Main Class)!
     public static void main(String[] args) {
         Apto obj1 = new Apto(77, "Copacabana");
-        Casa obj2 = new Casa(70,"Itaquera");
+        Casa obj2 = new Casa(70, "Itaquera");
 
-        poli(obj1);
-        poli(obj2);
-        
-        
+        // TRABALHANDO COM ARRAYLIST + FOR + objeto polimórfico:
+        // criando um vetor do tipo funcionário:
+        ArrayList<Imovel> vetor = new ArrayList();
+
+        // adicionando objetos ao array list:
+        vetor.add(obj1);
+        vetor.add(obj2);
+
+        // percorrendo com for e usando objeto polimórfico:
+        for (Imovel i : vetor) {
+            poli(i);
+        }
 
     }
 

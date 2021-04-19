@@ -50,7 +50,7 @@ public class Pedido {
     public Pedido(int codigo, Date data, Cliente cliente, Unidade unidade) {
         this.setCodigo(codigo);
         this.setData(data);
-        this.setData(data);
+        this.setCliente(cliente);
         this.setUnidade(unidade);
     }
 
